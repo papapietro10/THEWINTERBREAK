@@ -6,8 +6,9 @@ import { ItemDetailContainer } from './components/contenedor/containerDetalle/co
 import { CartContainer } from './components/contenedor/Carroordenform/CarroOrdenForm';
 import { CartProvider } from './context/CartContext';
 import {Anto} from './components/contenedor/Anto/Anto';
+import { NavBar } from './components/contenedor/Navbar/Navbar';
 //import {EnviarMensaje} from './components/contenedor/Formulario/Formulario'
-import {NavBar} from './components/contenedor/Navbar/Navbar'
+
 
 import {CartaProductos} from './components/contenedor/CartaProductos/cartaProductos'
 function App() {
@@ -17,9 +18,9 @@ function App() {
     <CartProvider>
  
       <BrowserRouter>
-      <NavBar />
+     
         <div className="App">
-
+        <NavBar/>  
            
           
             

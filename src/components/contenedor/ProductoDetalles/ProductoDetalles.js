@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const Item = ({item})=>{
     return(
         <div class="container">
+        
         <div class="card float-left">
           <div class="row ">
       
@@ -14,7 +15,7 @@ export const Item = ({item})=>{
             
                 <p>{item.title}</p>
                 <p>Change around the content for awsomenes</p>
-              
+              <Button > Detalle</Button>
               </div>
             </div>
       

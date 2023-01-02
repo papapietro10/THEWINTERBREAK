@@ -11,8 +11,9 @@ import {Anto} from "../Anto/Anto"
 import "../Footer/footer.css";
 import {Categorias} from "../Categorias/Categorias"
 import {Footer} from "../Footer/Footer"
-
-
+import { NavBar } from "../Navbar/Navbar";
+import {InicioUno } from "../inicio-uno/InicioUno"
+import { Barra } from "../Barra/Barra";
 export const Inicio = ()=>{
     const {categoria} = useParams();
 
@@ -39,27 +40,13 @@ export const Inicio = ()=>{
         
     },[categoria])
     return(
-        <div>
-<Video/> 
-
-<section>
-
-      </section>
-        <div className="Contenedor-inicio">
-        
-        </div>
-            <section className="container-sombra">
-           
-            </section>
-            
-            <ItemList items={productos}/>
-            <div className="Contenedor-inicio">
-        </div>
-   
-        
-        <div className="footer-container">
+        <div className=" container-inicio">
+        <Video/> 
+            <InicioUno/>
           
-        </div>
+            <ItemList items={productos}/>
+            
+      
         </div>
     )
 }
