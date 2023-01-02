@@ -1,0 +1,197 @@
+.tarjeta-producto{
+    width: 20%;
+    height: 30em;
+    margin: 10px;
+    padding: 10px;
+    box-shadow:  0px 5px 20px #010607;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta-producto h4{
+    margin-top: 10%;
+    font-size: 1.6em;
+    color: #034749;
+    font-family: 'Lato', sans-serif;
+    height: 3em;
+    text-align: center;
+    position: relative;
+    top: 1em;
+}
+.tarjeta-producto p{
+    color: #034749;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10%;
+    font-size: 1.2em;
+    position: relative;
+    bottom: 1em;
+}
+.tarjeta-producto img{
+    width: 80%;
+    border-radius: 0.5em;
+    position: relative;
+    top: 1em;
+    box-shadow:  0px 5px 8px #b4b1b1dd;
+    
+}
+
+
+.tarjeta-producto button{
+width: 130%;
+font-size: 1em;
+position: relative;
+right: 0.7em;
+font-family: 'Lato', sans-serif;
+bottom: 1em;
+box-shadow:  0px 5px 8px #b4b1b1dd;
+background-color: #333333;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+.tarjeta-producto{
+width: 44%;
+height: 23em;
+}
+.tarjeta-producto h4{
+margin-top: 10%;
+font-size: 1.1em;
+position: relative;
+top: 1em;
+}
+.tarjeta-producto p{
+font-size: 1em;
+position: relative;
+bottom: -0.5em;
+}
+.tarjeta-producto button{
+font-size: 0.8em;
+position: relative;
+bottom: 0em;
+}
+.tarjeta-producto img{
+width: 100%;
+position: relative;
+bottom: 10em;
+height:auto; 
+}
+
+}
+@media only screen and (min-width: 480px) and (max-width: 640px){
+    .tarjeta-producto{
+        width: 44%;
+    height: 29em;
+    }
+    .tarjeta-producto h4{
+    margin-top: 10%;
+    font-size: 1.1em;
+    position: relative;
+    top: 1em;
+    }
+    .tarjeta-producto p{
+    font-size: 1em;
+    position: relative;
+    bottom: -0.5em;
+    }
+    .tarjeta-producto button{
+    font-size: 0.8em;
+    position: relative;
+    bottom: 0em;
+    }
+    .tarjeta-producto img{
+    width: 100%;
+    position: relative;
+    bottom: 10em;
+    height:auto; 
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 740px){
+.tarjeta-producto{
+   width: 30%;
+    height: 25em;
+    }
+    .tarjeta-producto h4{
+    margin-top: 10%;
+    font-size: 1.1em;
+    position: relative;
+    top: 1em;
+    
+    }
+    .tarjeta-producto p{
+    font-size: 1em;
+    position: relative;
+    bottom: -0.5em;
+    }
+    .tarjeta-producto button{
+    font-size: 0.8em;
+    position: relative;
+    bottom: 0em;
+    }
+    .tarjeta-producto img{
+    width: 100%;
+    position: relative;
+    bottom: 10em;
+    height:auto; 
+    }
+}
+@media only screen and (min-width: 740px) and (max-width: 844px){
+.tarjeta-producto{
+width: 30%;
+    height: 29em;
+    }
+    .tarjeta-producto h4{
+    margin-top: 10%;
+    font-size: 1.5em;
+    position: relative;
+    top: 1em;
+    }
+    .tarjeta-producto p{
+    font-size: 1em;
+    position: relative;
+    bottom: -0.5em;
+    }
+    .tarjeta-producto button{
+    font-size: 0.8em;
+    position: relative;
+    bottom: 0em;
+    }
+    .tarjeta-producto img{
+    width: 100%;
+    position: relative;
+    bottom: 10em;
+    height:auto;  
+    }
+}
+@media only screen and (min-width: 844px) and (max-width: 968px){
+    .tarjeta-producto{
+    width: 20%;
+        height: 25em;
+        }
+        .tarjeta-producto h4{
+        margin-top: 10%;
+        font-size: 1.1em;
+        position: relative;
+        top: 1em;
+        }
+        .tarjeta-producto p{
+        font-size: 1em;
+        position: relative;
+        bottom: -0.5em;
+        }
+        .tarjeta-producto button{
+        font-size: 0.8em;
+        position: relative;
+        bottom: 0em;
+        }
+        .tarjeta-producto img{
+        width: 100%;
+        position: relative;
+        bottom: 10em;
+        height:auto; 
+        }
+    }

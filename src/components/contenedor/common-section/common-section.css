@@ -1,0 +1,15 @@
+.common__section {
+  background: linear-gradient(#1e1e1eb9, #02424478),
+  url("../../../assets/Imagenes/2\ copia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0px;
+}
+
+.text-white{
+  font-size: 5em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0px 5px 5px black;
+}

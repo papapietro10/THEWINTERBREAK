@@ -1,0 +1,38 @@
+.container-carrito{
+  display: flex;
+  width: 5em;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.container-carrito h5{
+  font-size: 1em;
+  color:#ffffff;
+  font-family: 'Lato', sans-serif;
+margin-top: 0.5em;
+}
+.link{
+  text-decoration: none;
+}
+.cantidad-carrito{
+margin-left: 0.5em;
+font-size: 1.3em;
+Color:#ffffff;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+    .carrito{
+     
+      margin-left: -3em;
+      margin-bottom: 1em;
+   
+    width: 2em;
+  }
+}
+@media only screen and (max-width: 390px){
+
+}

@@ -1,0 +1,13 @@
+
+.estilos-listado{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: #323232;
+    width: 100%;
+    height: auto;
+   margin-left: 0%;
+  
+}
+

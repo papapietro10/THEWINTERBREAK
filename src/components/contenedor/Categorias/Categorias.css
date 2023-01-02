@@ -1,0 +1,27 @@
+.categoria-title{
+    color:aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+.categoria-h2{
+    color:#FFF1DA;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 4em;
+text-align:left;
+}
+.claseActive{
+    text-decoration:underline #FFF1DA;
+    color:#FFF1DA;
+    
+}
+.claseInactive{
+    text-decoration: none;
+}
+
+
+
+
+
+
+  

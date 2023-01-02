@@ -1,0 +1,42 @@
+.formulario-imput{
+    width: 30%;
+    display: flex;
+  flex-direction: column;
+ margin-top: 5em;
+    margin-left: 17em;
+    text-align:left;
+}
+.apellido{
+    margin-top: 2em;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+   
+    .formulario-imput{
+       
+            margin-left: 3em;
+            width: 70%;
+      
+    }
+    
+}
+@media only screen and (min-width: 480px) and (max-width: 640px){
+    .formulario-imput{
+        margin-left: 3em;
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 740px){
+    .formulario-imput{
+        margin-left: 3em;
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 840px){
+    .formulario-imput{
+        margin-left: 3em;
+        width: 70%;
+    }
+}

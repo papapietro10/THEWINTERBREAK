@@ -1,0 +1,28 @@
+.estilosContador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background: #ffffff;
+    font-family: 'Lato', sans-serif;
+    color: #034749;
+  font-size: 1.6em;
+    margin: 10px auto;
+    padding: 10px;
+    
+}
+
+.contenedorControles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: #ffffff;
+    width: 90%;
+   
+}
+
+
+
