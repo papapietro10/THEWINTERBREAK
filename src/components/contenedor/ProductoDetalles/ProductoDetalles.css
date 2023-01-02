@@ -1,197 +1,103 @@
-.tarjeta-producto{
-    width: 20%;
-    height: 30em;
-    margin: 10px;
-    padding: 10px;
-    box-shadow:  0px 5px 20px #010607;
-    background-color: #ffffff;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600);
+figure.snip1195 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 400px;
+  max-width: 480px;
+  width: 100%;
+  background: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
-.tarjeta-producto h4{
-    margin-top: 10%;
-    font-size: 1.6em;
-    color: #034749;
-    font-family: 'Lato', sans-serif;
-    height: 3em;
-    text-align: center;
-    position: relative;
-    top: 1em;
+figure.snip1195 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
-.tarjeta-producto p{
-    color: #034749;
-    font-family: 'Lato', sans-serif;
-    margin-top: 10%;
-    font-size: 1.2em;
-    position: relative;
-    bottom: 1em;
+figure.snip1195 .image {
+  background-color: #000000;
+  width: 50%;
+  overflow: hidden;
 }
-.tarjeta-producto img{
-    width: 80%;
-    border-radius: 0.5em;
-    position: relative;
-    top: 1em;
-    box-shadow:  0px 5px 8px #b4b1b1dd;
-    
+figure.snip1195 img {
+  max-width: 100%;
+  vertical-align: top;
 }
-
-
-.tarjeta-producto button{
-width: 130%;
-font-size: 1em;
-position: relative;
-right: 0.7em;
-font-family: 'Lato', sans-serif;
-bottom: 1em;
-box-shadow:  0px 5px 8px #b4b1b1dd;
-background-color: #333333;
+figure.snip1195 figcaption {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 10px 35px;
 }
-
-
-
-@media only screen and (min-width: 320px) and (max-width: 480px){
-.tarjeta-producto{
-width: 44%;
-height: 23em;
+figure.snip1195 h4,
+figure.snip1195 p,
+figure.snip1195 .price {
+  margin: 0 0 8px;
 }
-.tarjeta-producto h4{
-margin-top: 10%;
-font-size: 1.1em;
-position: relative;
-top: 1em;
+figure.snip1195 h4 {
+  position: absolute;
+  width: 50%;
+  top: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 1px;
+  z-index: 1;
 }
-.tarjeta-producto p{
-font-size: 1em;
-position: relative;
-bottom: -0.5em;
+figure.snip1195 p {
+  font-size: 0.7em;
+  font-weight: 500;
+  line-height: 1.6em;
 }
-.tarjeta-producto button{
-font-size: 0.8em;
-position: relative;
-bottom: 0em;
+figure.snip1195 .rating {
+  position: absolute;
+  width: 50%;
+  line-height: 44px;
+  color: #ffffff;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
 }
-.tarjeta-producto img{
-width: 100%;
-position: relative;
-bottom: 10em;
-height:auto; 
+figure.snip1195 .price {
+  color: #ffffff;
+  font-size: 1.3em;
+  opacity: 0.8;
 }
-
+figure.snip1195 .price s {
+  display: inline-block;
+  padding: 0 8px 0 0;
+  font-size: 0.85em;
+  color: #f39c12;
 }
-@media only screen and (min-width: 480px) and (max-width: 640px){
-    .tarjeta-producto{
-        width: 44%;
-    height: 29em;
-    }
-    .tarjeta-producto h4{
-    margin-top: 10%;
-    font-size: 1.1em;
-    position: relative;
-    top: 1em;
-    }
-    .tarjeta-producto p{
-    font-size: 1em;
-    position: relative;
-    bottom: -0.5em;
-    }
-    .tarjeta-producto button{
-    font-size: 0.8em;
-    position: relative;
-    bottom: 0em;
-    }
-    .tarjeta-producto img{
-    width: 100%;
-    position: relative;
-    bottom: 10em;
-    height:auto; 
-    }
+figure.snip1195 .add-to-cart {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-weight: 600;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  line-height: 44px;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
-
-@media only screen and (min-width: 640px) and (max-width: 740px){
-.tarjeta-producto{
-   width: 30%;
-    height: 25em;
-    }
-    .tarjeta-producto h4{
-    margin-top: 10%;
-    font-size: 1.1em;
-    position: relative;
-    top: 1em;
-    
-    }
-    .tarjeta-producto p{
-    font-size: 1em;
-    position: relative;
-    bottom: -0.5em;
-    }
-    .tarjeta-producto button{
-    font-size: 0.8em;
-    position: relative;
-    bottom: 0em;
-    }
-    .tarjeta-producto img{
-    width: 100%;
-    position: relative;
-    bottom: 10em;
-    height:auto; 
-    }
+figure.snip1195:hover img,
+figure.snip1195.hover img {
+  opacity: 0.6;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
-@media only screen and (min-width: 740px) and (max-width: 844px){
-.tarjeta-producto{
-width: 30%;
-    height: 29em;
-    }
-    .tarjeta-producto h4{
-    margin-top: 10%;
-    font-size: 1.5em;
-    position: relative;
-    top: 1em;
-    }
-    .tarjeta-producto p{
-    font-size: 1em;
-    position: relative;
-    bottom: -0.5em;
-    }
-    .tarjeta-producto button{
-    font-size: 0.8em;
-    position: relative;
-    bottom: 0em;
-    }
-    .tarjeta-producto img{
-    width: 100%;
-    position: relative;
-    bottom: 10em;
-    height:auto;  
-    }
+figure.snip1195:hover .add-to-cart,
+figure.snip1195.hover .add-to-cart {
+  background-color: rgba(0, 0, 0, 0.5);
 }
-@media only screen and (min-width: 844px) and (max-width: 968px){
-    .tarjeta-producto{
-    width: 20%;
-        height: 25em;
-        }
-        .tarjeta-producto h4{
-        margin-top: 10%;
-        font-size: 1.1em;
-        position: relative;
-        top: 1em;
-        }
-        .tarjeta-producto p{
-        font-size: 1em;
-        position: relative;
-        bottom: -0.5em;
-        }
-        .tarjeta-producto button{
-        font-size: 0.8em;
-        position: relative;
-        bottom: 0em;
-        }
-        .tarjeta-producto img{
-        width: 100%;
-        position: relative;
-        bottom: 10em;
-        height:auto; 
-        }
-    }
