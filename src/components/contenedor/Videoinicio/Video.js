@@ -19,7 +19,7 @@ export const Video = ()=>{
     <div className='main'>
     <div className="overlay"></div>
     <video
-            style={{ maxWidth: "100%", width: "100%", margin: "0 auto" }}
+     
           playsInline
           loop
           muted

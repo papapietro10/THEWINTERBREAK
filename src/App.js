@@ -15,6 +15,7 @@ function App() {
   return (
     
     <CartProvider>
+ 
       <BrowserRouter>
       <NavBar />
         <div className="App">

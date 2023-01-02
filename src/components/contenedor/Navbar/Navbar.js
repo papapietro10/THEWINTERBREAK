@@ -10,7 +10,7 @@ export const NavBar = ()=>{
     return(
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
         <Container>
-          <img  src="https://firebasestorage.googleapis.com/v0/b/prueba-a3c56.appspot.com/o/LOGO%20THE%20WINTER%20BREAK-01.webp?alt=media&token=e660706c-fcac-4cce-abf8-d25bae07b124" alt="" className="logo" />
+          <img  src="https://firebasestorage.googleapis.com/v0/b/prueba-a3c56.appspot.com/o/LOGO%20THE%20WINTER%20BREAK-01.webp?alt=media&token=9a465ec7-5c0c-4c59-b78a-3f2d8b0b0040" alt="" className="logo" />
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
