@@ -7,13 +7,11 @@ import { db } from "../Utils/firebase";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import {Video} from "../Videoinicio/Video"
-import {Anto} from "../Anto/Anto"
+
 import "../Footer/footer.css";
-import {Categorias} from "../Categorias/Categorias"
-import {Footer} from "../Footer/Footer"
-import { NavBar } from "../Navbar/Navbar";
+
 import {InicioUno } from "../inicio-uno/InicioUno"
-import { Barra } from "../Barra/Barra";
+
 export const Inicio = ()=>{
     const {categoria} = useParams();
 

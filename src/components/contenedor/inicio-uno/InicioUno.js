@@ -1,8 +1,6 @@
 
 import './InicioUno.css';
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import { Barra } from '../Barra/Barra';
 
 
 export const InicioUno = ()=>{

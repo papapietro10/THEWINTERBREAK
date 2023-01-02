@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import "../Videoinicio/Video.css"
-import Button from 'react-bootstrap/Button';
 export const Video = ()=>{
   const videoEl = useRef(null);
 

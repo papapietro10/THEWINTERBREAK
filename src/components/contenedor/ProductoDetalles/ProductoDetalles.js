@@ -1,12 +1,11 @@
 import './ProductoDetalles.css';
-import {Link} from 'react-router-dom';
+
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Card from 'react-bootstrap/Card';
 
-import React, {useState} from 'https://cdn.skypack.dev/react';
-import ReactDOM from 'https://cdn.skypack.dev/react-dom';
-import {TiChevronLeftOutline, TiChevronRightOutline} from 'https://cdn.skypack.dev/react-icons/ti';
+
+import React from 'https://cdn.skypack.dev/react';
+
 
 export const Item = ({item})=>{
     return(
@@ -29,9 +28,9 @@ export const Item = ({item})=>{
           <s>$</s>$
         </div>
       </figcaption>
-      <a href="#" className="add-to-cart">
+      <Button href="#" className="add-to-cart" >
         Add to Cart
-      </a>
+      </Button>
     </figure>
        
      
