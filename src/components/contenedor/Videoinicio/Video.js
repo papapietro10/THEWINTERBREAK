@@ -24,7 +24,7 @@ export const Video = ()=>{
           loop
           muted
           alt="All the devices"
-          src="https://firebasestorage.googleapis.com/v0/b/prueba-a3c56.appspot.com/o/video.mov?alt=media&token=4b782b58-b3c1-492b-8377-b0cd2836f084"
+          src="https://firebasestorage.googleapis.com/v0/b/thewinterbreack.appspot.com/o/videoinicio%20(1).mov?alt=media&token=b48ccfe6-4e5c-4f90-af08-00be8f40efc3"
           ref={videoEl}
         />
     <div className="content">

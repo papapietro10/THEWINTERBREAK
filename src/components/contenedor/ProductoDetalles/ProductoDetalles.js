@@ -12,9 +12,9 @@ export const Item = ({item})=>{
             <div class="col-sm-7">
               <div class="card-block">
             
-                <p>Wetgple text to build your own card.</p>
+                <p>{item.title}</p>
                 <p>Change around the content for awsomenes</p>
-                <a href="#" class="btn btn-primary btn-sm">Read More</a>
+              
               </div>
             </div>
       
