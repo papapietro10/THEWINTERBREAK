@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "../Videoinicio/Video.css"
 export const Video = ()=>{
-    const videoEl = useRef(null);
+  const videoEl = useRef(null);
 
   const attemptPlay = () => {
     videoEl &&
