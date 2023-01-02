@@ -10,7 +10,7 @@ import React from 'https://cdn.skypack.dev/react';
 export const Item = ({item})=>{
     return(
       <figure className="snip1195">
-      <h4>{item.TiChevronRightOutline}</h4>
+      <h4>{item.title}</h4>
       <div className="image">
         <img src={item.pictureUrl} alt="" />
       </div>
