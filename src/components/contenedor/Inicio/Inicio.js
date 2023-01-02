@@ -40,16 +40,18 @@ export const Inicio = ()=>{
     },[categoria])
     return(
         <div>
-
 <Video/> 
+
 <section>
-       
+
       </section>
         <div className="Contenedor-inicio">
+        
         </div>
             <section className="container-sombra">
            
             </section>
+            
             <ItemList items={productos}/>
             <div className="Contenedor-inicio">
         </div>

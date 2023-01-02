@@ -17,14 +17,14 @@ export const Video = ()=>{
   return (
     
     <div className='main'>
-    <div className="overlay"></div>
+  
     <video
      
           playsInline
           loop
           muted
           alt="All the devices"
-          src="https://firebasestorage.googleapis.com/v0/b/thewinterbreack.appspot.com/o/videoinicio%20(1).mov?alt=media&token=b48ccfe6-4e5c-4f90-af08-00be8f40efc3"
+          src="https://firebasestorage.googleapis.com/v0/b/thewinterbreack.appspot.com/o/video2.mov?alt=media&token=ba190dbb-50e6-4cb8-998b-baacdcb58ab6"
           ref={videoEl}
         />
     <div className="content">
