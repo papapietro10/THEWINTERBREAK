@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/THEWINTERBREAK/static/css/main.c60367c7.css",
-    "main.js": "/THEWINTERBREAK/static/js/main.e418af76.js",
+    "main.css": "/THEWINTERBREAK/static/css/main.50299bf4.css",
+    "main.js": "/THEWINTERBREAK/static/js/main.c968d712.js",
     "static/js/787.cc38c04d.chunk.js": "/THEWINTERBREAK/static/js/787.cc38c04d.chunk.js",
     "static/media/2 copia.jpg": "/THEWINTERBREAK/static/media/2 copia.2434cb26114d5d4f50f9.jpg",
     "static/media/Logo.png": "/THEWINTERBREAK/static/media/Logo.32de3a3b05389718b200.png",
     "index.html": "/THEWINTERBREAK/index.html",
-    "main.c60367c7.css.map": "/THEWINTERBREAK/static/css/main.c60367c7.css.map",
-    "main.e418af76.js.map": "/THEWINTERBREAK/static/js/main.e418af76.js.map",
+    "main.50299bf4.css.map": "/THEWINTERBREAK/static/css/main.50299bf4.css.map",
+    "main.c968d712.js.map": "/THEWINTERBREAK/static/js/main.c968d712.js.map",
     "787.cc38c04d.chunk.js.map": "/THEWINTERBREAK/static/js/787.cc38c04d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c60367c7.css",
-    "static/js/main.e418af76.js"
+    "static/css/main.50299bf4.css",
+    "static/js/main.c968d712.js"
   ]
 }
