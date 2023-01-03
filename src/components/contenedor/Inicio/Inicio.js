@@ -7,7 +7,7 @@ import { db } from "../Utils/firebase";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import {Video} from "../Videoinicio/Video"
-import {TituloPaquetes} from "../ProductoDetalles/Parte2"
+import {Titulopaquetes} from "../ProductoDetalles/Parte2"
 import "../Footer/footer.css";
 import { ReservaFechas } from "../ProductoDetalles/Parte1";
 import {InicioUno } from "../inicio-uno/InicioUno"
@@ -42,7 +42,7 @@ export const Inicio = ()=>{
         <Video/> 
             <InicioUno/>
             <ReservaFechas/>
-          <TituloPaquetes/>
+          <Titulopaquetes/>
 
             <ItemList items={productos}/>
             
