@@ -4,8 +4,7 @@ import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-import React from 'https://cdn.skypack.dev/react';
-
+import React from 'react';
 
 export const Item = ({item})=>{
     return(
