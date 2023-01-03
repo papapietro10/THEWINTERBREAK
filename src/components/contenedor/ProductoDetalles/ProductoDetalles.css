@@ -1,17 +1,18 @@
 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600);
 figure.snip1195 {
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   position: relative;
   overflow: hidden;
   margin: 10px;
   min-width: 400px;
   max-width: 480px;
   width: 100%;
-  background: #1a1a1a;
+  background: #1b1b1b;
   color: #ffffff;
-  text-align: center;
+  text-align: justify;
   border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.719);
 }
 figure.snip1195 * {
   -webkit-box-sizing: border-box;
@@ -51,25 +52,24 @@ figure.snip1195 h4 {
   color: #ffffff;
   letter-spacing: 1px;
   z-index: 1;
+  text-align: center;
 }
 figure.snip1195 p {
   font-size: 0.7em;
   font-weight: 500;
   line-height: 1.6em;
+  text-decoration: none;
 }
-figure.snip1195 .rating {
-  position: absolute;
-  width: 50%;
-  line-height: 44px;
+.link{
   color: #ffffff;
-  left: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
 }
+
 figure.snip1195 .price {
   color: #ffffff;
   font-size: 1.3em;
   opacity: 0.8;
+  text-align: center;
 }
 figure.snip1195 .price s {
   display: inline-block;
@@ -84,11 +84,12 @@ figure.snip1195 .add-to-cart {
   right: 0;
   font-weight: 600;
   width: 50%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(3, 3, 3, 0.505);
   line-height: 44px;
   font-size: 0.75em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #d7d3d3;
+  border-color: rgb(0, 0, 0);
 }
 figure.snip1195:hover img,
 figure.snip1195.hover img {
@@ -99,4 +100,99 @@ figure.snip1195.hover img {
 figure.snip1195:hover .add-to-cart,
 figure.snip1195.hover .add-to-cart {
   background-color: rgba(0, 0, 0, 0.5);
+}
+.container-titulo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30em;
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+
+.container-titulo h4{
+ font-size: 5em;
+}
+
+ .ccontainer-titulo-p{
+  width: 60%;
+ }
+ .ccontainer-titulo-p p{
+  font-size: 1.5em;
+
+ }
+.container-fechas-reservas{
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+ justify-content: center;
+ flex-direction: column;
+  align-items: center;
+
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+  
+}
+
+.parte1{
+  display: flex;
+  width: 100%;
+ justify-content: center;
+ flex-direction: column;
+  align-items: center;
+  height: 30em;
+}
+.parte1 p{
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+.container-fechas-reservas H4{
+font-size: 5em;
+
+}
+ .container-fechas-reservas-tipos{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 15em;
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+ }
+ .early{
+  background-color: #1b1b1b;
+  width: 30%;
+  height: 15em;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ }
+ .early h4{
+  font-size: 2em;
+ }
+ .early p{
+width: 80%;
+ }
+ .admission{
+  background-color: #1b1b1b;
+  width: 30%;
+  height: 15em;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.admission h4{
+  font-size: 2em;
+ 
+}
+.admission p{
+
+ width: 60%;
 }

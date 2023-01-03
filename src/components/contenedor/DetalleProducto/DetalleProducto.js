@@ -37,11 +37,11 @@ export const ItemDetail = ({item})=>{
                 </div>
                 
                 <div className="img__item mb-3 imagen-mas" onClick={() => setPreviewImg(item.pictureUrl1)}>
-                  <img  src={item.pictureUrl1} alt="" className="w-50 imagen-detalle" />
+                  <img  src={item.pictureUrl} alt="" className="w-50 imagen-detalle" />
                 </div>
 
                 <div className="img__item imagen-mas" onClick={() => setPreviewImg(item.pictureUrl2)}>
-                  <img   src={item.pictureUrl2} alt="" className="w-50 imagen-detalle" />
+                  <img   src={item.pictureUrl} alt="" className="w-50 imagen-detalle" />
                 </div>
       
               </div>
@@ -58,7 +58,7 @@ export const ItemDetail = ({item})=>{
               <h2 className="titulo-detalle-producto">{item.title}</h2>
               <div className='detalles-container tamaño-detalle'>
           
-                  <p> {item.desc}</p>
+                  <p> {item.desc1}</p>
                   <h5>$ {item.price}</h5>
               </div>
               <div className='detalles-control'>

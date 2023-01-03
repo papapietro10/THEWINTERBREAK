@@ -8,8 +8,7 @@ import { CartProvider } from './context/CartContext';
 import {Anto} from './components/contenedor/Anto/Anto';
 import { NavBar } from './components/contenedor/Navbar/Navbar';
 //import {EnviarMensaje} from './components/contenedor/Formulario/Formulario'
-
-
+import {ItemDetail} from "./components/contenedor/DetalleProducto/DetalleProducto"
 import {CartaProductos} from './components/contenedor/CartaProductos/cartaProductos'
 function App() {
 
@@ -33,6 +32,7 @@ function App() {
                   <Route path='*' element={<Inicio/>}/>       
                   <Route path='/carta' element={<CartaProductos/>}/>     
                   <Route path='/producto/:categoria' element={<CartaProductos/>}/> 
+                  <Route path='/detalle' element={<ItemDetail/>}/> 
                 </Routes>
         
            

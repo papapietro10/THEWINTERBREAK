@@ -7,9 +7,9 @@ import { db } from "../Utils/firebase";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import {Video} from "../Videoinicio/Video"
-
+import {TituloPaquetes} from "../ProductoDetalles/Parte2"
 import "../Footer/footer.css";
-
+import { ReservaFechas } from "../ProductoDetalles/Parte1";
 import {InicioUno } from "../inicio-uno/InicioUno"
 
 export const Inicio = ()=>{
@@ -41,7 +41,9 @@ export const Inicio = ()=>{
         <div className=" container-inicio">
         <Video/> 
             <InicioUno/>
-          
+            <ReservaFechas/>
+          <TituloPaquetes/>
+
             <ItemList items={productos}/>
             
       
