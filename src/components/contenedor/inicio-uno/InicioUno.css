@@ -177,10 +177,12 @@ margin-top: 5em;
     position: relative;
     top: 0.5em;
     margin-top: 0.3em;
-    font-size: 7em;
+    font-size: 6em;
   }
   .inicio-imagen img{
-    width: 50%;
+    width: 60%;
+    position: relative;
+    bottom: 10em;
 
   }
 }
@@ -197,10 +199,12 @@ margin-top: 5em;
     position: relative;
     top: 0.5em;
     margin-top: 0.3em;
-    font-size: 7em;
+    font-size: 6em;
   }
   .inicio-imagen img{
     width: 50%;
+    position: relative;
+    bottom: 10em;
 
   }
 }
@@ -221,6 +225,8 @@ margin-top: 5em;
   }
   .inicio-imagen img{
     width: 50%;
+    position: relative;
+    bottom: 15em;
 
   }
 }
@@ -241,6 +247,8 @@ margin-top: 5em;
   }
   .inicio-imagen img{
     width: 50%;
+    position: relative;
+    bottom: 20em;
 
   }
 }

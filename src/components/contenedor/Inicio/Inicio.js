@@ -11,7 +11,7 @@ import {Titulopaquetes} from "../ProductoDetalles/Parte2"
 import "../Footer/footer.css";
 import { ReservaFechas } from "../ProductoDetalles/Parte1";
 import {InicioUno } from "../inicio-uno/InicioUno"
-
+import { Comofunciona } from "../Comofunciona/Comofunciona";
 export const Inicio = ()=>{
     const {categoria} = useParams();
 
@@ -39,14 +39,14 @@ export const Inicio = ()=>{
     },[categoria])
     return(
         <div className=" container-inicio">
-        <Video/> 
+            <Video/> 
             <InicioUno/>
             <ReservaFechas/>
-          <Titulopaquetes/>
+            <Titulopaquetes/>
             <div className="contenedor-cards">
                 <ItemList items={productos}/>
             </div>
-
+            <Comofunciona/>
         </div>
     )
 }

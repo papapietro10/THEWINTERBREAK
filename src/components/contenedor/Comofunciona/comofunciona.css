@@ -1,0 +1,239 @@
+.contenedor-comofunciona{
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor-comofunciona-titulo-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+    height: 20em;
+}
+.contenedor-comofunciona-titulo-imagen h4{
+    font-size: 6em;
+    width: 65%;
+    color: #fff;
+    
+}
+
+
+/*CARDS*/
+
+.contenedor-comofunciona-pasos{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+height: 50em;
+  font-family: 'Lato', sans-serif;
+  
+}
+
+.snip1345 {
+ height: 35em;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.4em;
+  font-size: 16px;
+  transform: translateZ(0);
+}
+.snip1345:before {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 85%;
+  background-image: -webkit-linear-gradient(top, transparent 0%, #0000000c 85%);
+  background-image: linear-gradient(to bottom, transparent 0%, #00000039 85%);
+}
+.snip1345 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1345 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1345 .inside {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  border: 20px solid #000000;
+  box-shadow: 0px 0px 3px 30px rgba(0, 0, 0, 0.141);
+
+  background-image: linear-gradient(to bottom, transparent 4%, #010101 47%);
+}
+.snip1345 figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+.snip1345 h3,
+.snip1345 p {
+  
+  margin: 0 0 10px;
+}
+.snip1345 h4 {
+  margin-top: 10em;
+  font-size: 1.3em;
+  font-family: 'Lato', sans-serif;
+}
+.snip1345 p {
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  opacity: 0.75;
+}
+.snip1345 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1345:hover .inside,
+.snip1345.hover .inside {
+  box-shadow: 0px 0px 3px 25px rgba(0, 0, 0, 0.668);
+}
+.snip1345 img{
+ height: 30em;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .contenedor-comofunciona-titulo-imagen{
+    height: 20em;
+}
+.contenedor-comofunciona-titulo-imagen h4{
+    font-size: 4em;
+   text-align: left;
+   width: 85%;
+    
+}
+.contenedor-comofunciona-pasos{
+  width: 100%;
+  height: 150em;
+}
+
+   }
+  @media only screen and (min-width: 320px) and (max-width: 440px) {
+    .contenedor-comofunciona-titulo-imagen{
+      height: 20em;
+  }
+  .contenedor-comofunciona-titulo-imagen h4{
+      font-size: 4em;
+     text-align: left;
+     width: 85%;
+      
+  }
+  .contenedor-comofunciona-pasos{
+    width: 100%;
+    height: 150em;
+  }
+  }
+  @media only screen and (min-width: 440px) and (max-width: 540px) {
+    .contenedor-comofunciona-titulo-imagen{
+      height: 20em;
+  }
+  .contenedor-comofunciona-titulo-imagen h4{
+      font-size: 5em;
+     text-align: left;
+     width: 85%;
+      
+  }
+  .contenedor-comofunciona-pasos{
+    width: 100%;
+    height: 150em;
+  }
+  
+  }
+  @media only screen and (min-width: 540px) and (max-width: 640px){
+    .contenedor-comofunciona-titulo-imagen{
+      height: 20em;
+  }
+  .contenedor-comofunciona-titulo-imagen h4{
+      font-size: 5em;
+     text-align: left;
+     width: 85%;
+      
+  }
+  .contenedor-comofunciona-pasos{
+    width: 100%;
+    height: 150em;
+  }
+  
+  }
+  @media only screen and (min-width: 640px) and (max-width: 740px) {
+    .contenedor-comofunciona-pasos{
+      width: 100%;
+      height: 80em;
+    }
+    .contenedor-comofunciona{
+      height: 100em;
+    }
+  }
+  @media only screen and (min-width: 740px) and (max-width: 767px) {
+  
+    .contenedor-comofunciona-pasos{
+      width: 100%;
+      height: 80em;
+    }
+    .contenedor-comofunciona{
+      height: 100em;
+    }
+  }
+  @media only screen and (min-width: 767px) and (max-width: 800px){
+    .contenedor-comofunciona-pasos{
+      width: 100%;
+      height: 80em;
+    }
+    .contenedor-comofunciona{
+      height: 130em;
+    }
+  }
+  @media only screen and (min-width: 800px) and (max-width: 940px) {
+    .contenedor-comofunciona{
+      height: 130em;
+    }
+  }
+  @media only screen and (min-width: 840px) and (max-width: 940px) {
+    .contenedor-comofunciona{
+      height: 130em;
+    }
+  }
+  @media only screen and (min-width: 940px) and (max-width: 1000px){
+    .contenedor-comofunciona{
+      height: 130em;
+    }
+  }
+  @media only screen and (min-width: 1000px) and (max-width: 1100px){
+    .contenedor-comofunciona{
+      height: 130em;
+    }
+  }
+  @media only screen and (min-width: 1100px) and (max-width: 1200px){
+    .contenedor-comofunciona{
+      height: 130em;
+    }
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1300px){
+    .contenedor-comofunciona{
+      height: 130em;
+    }
+  }
