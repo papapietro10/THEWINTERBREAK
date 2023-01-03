@@ -1,10 +1,9 @@
 import React from "react";
-import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
+
 
 import Logo from '../../../assets/Imagenes/Logo.png';
 import "./footer.css";
 
-import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
