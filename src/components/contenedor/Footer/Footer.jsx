@@ -8,9 +8,10 @@ import "./footer.css";
 export const Footer = () => {
   return (
    
+  
     <footer className="footer">
-   
-      <div className="contenedor-footer">
+    
+         <div className="contenedor-footer">
         <div className="footer__logo">
           <img src={Logo}  alt="logo" />
           <h6> Siempre es un buen momento para comer algo dulce </h6> 
@@ -37,6 +38,7 @@ export const Footer = () => {
           <h6>Email: fazioreposteria@gmail.com</h6>
         </div>
       </div>
+      
   </footer>
 )
 }

@@ -33,8 +33,9 @@ margin-top: 5em;
   .inicio-titulo h4{
     position: relative;
     top: 0.5em;
-    margin-top: 0.3em;
-    font-size: 1em;
+    margin-top: 0.2em;
+    font-size: 3em;
+    width: 50;
   }
   .inicio-imagen img{
     width: 100%;
@@ -51,7 +52,7 @@ margin-top: 5em;
     position: relative;
     top: 0.5em;
     margin-top: 0.3em;
-    font-size: 4em;
+    font-size: 3.7em;
   }
   .inicio-imagen img{
     width: 100%;
@@ -73,7 +74,7 @@ margin-top: 5em;
     position: relative;
     top: 0.5em;
     margin-top: 0.3em;
-    font-size: 5em;
+    font-size: 4em;
   }
   .inicio-imagen img{
     width: 100%;
@@ -94,7 +95,7 @@ margin-top: 5em;
     position: relative;
     top: 0.5em;
     margin-top: 0.3em;
-    font-size: 6em;
+    font-size: 5em;
   }
   .inicio-imagen img{
     width: 100%;
@@ -114,7 +115,7 @@ margin-top: 5em;
     position: relative;
     top: 0.5em;
     margin-top: 0.3em;
-    font-size: 7em;
+    font-size: 6em;
   }
   .inicio-imagen img{
     width: 100%;
@@ -135,7 +136,7 @@ margin-top: 5em;
     position: relative;
     top: 0.5em;
     margin-top: 0.3em;
-    font-size: 7em;
+    font-size: 6em;
   }
   .inicio-imagen img{
     width: 100%;
@@ -155,7 +156,7 @@ margin-top: 5em;
     position: relative;
     top: 0.5em;
     margin-top: 0.3em;
-    font-size: 7em;
+    font-size: 6em;
   }
   .inicio-imagen img{
     width: 100%;
@@ -176,7 +177,7 @@ margin-top: 5em;
     position: relative;
     top: 0.5em;
     margin-top: 0.3em;
-    font-size: 4em;
+    font-size: 7em;
   }
   .inicio-imagen img{
     width: 50%;
@@ -196,7 +197,7 @@ margin-top: 5em;
     position: relative;
     top: 0.5em;
     margin-top: 0.3em;
-    font-size: 4em;
+    font-size: 7em;
   }
   .inicio-imagen img{
     width: 50%;
@@ -216,7 +217,7 @@ margin-top: 5em;
     position: relative;
     top: 0.5em;
     margin-top: 0.3em;
-    font-size: 4em;
+    font-size: 7em;
   }
   .inicio-imagen img{
     width: 50%;
@@ -236,7 +237,7 @@ margin-top: 5em;
     position: relative;
     top: 0.5em;
     margin-top: 0.3em;
-    font-size: 4em;
+    font-size: 7em;
   }
   .inicio-imagen img{
     width: 50%;

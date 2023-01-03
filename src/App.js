@@ -10,6 +10,8 @@ import { NavBar } from './components/contenedor/Navbar/Navbar';
 //import {EnviarMensaje} from './components/contenedor/Formulario/Formulario'
 import {ItemDetail} from "./components/contenedor/DetalleProducto/DetalleProducto"
 import {CartaProductos} from './components/contenedor/CartaProductos/cartaProductos'
+
+
 function App() {
 
   return (
@@ -38,7 +40,7 @@ function App() {
            
         </div>
       </BrowserRouter>
-      
+  
     </CartProvider>
   );
 }

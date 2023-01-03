@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 
 export const Item = ({item})=>{
     return(
+   
       <figure className="snip1195" data-aos="zoom-in-down">
         <h4>{item.title}</h4>
         <div className="image">
@@ -31,7 +32,7 @@ export const Item = ({item})=>{
           </Button>
         </Link>
     </figure>
-       
+ 
      
     )
 }

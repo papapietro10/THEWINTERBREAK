@@ -43,10 +43,10 @@ export const Inicio = ()=>{
             <InicioUno/>
             <ReservaFechas/>
           <Titulopaquetes/>
+            <div className="contenedor-cards">
+                <ItemList items={productos}/>
+            </div>
 
-            <ItemList items={productos}/>
-            
-      
         </div>
     )
 }
