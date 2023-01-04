@@ -12,11 +12,8 @@
 width: 32em;
 height: 37em;
 position: relative;
-bottom: 20em;
--moz-transform: rotate(-10deg);
--o-transform: rotate(-10deg);
--webkit-transform: rotate(-10deg);
-transform: rotate(-4deg);
+bottom: 20.5em;
+
 }
 
 .contenido-dos-genero h4{
@@ -76,10 +73,10 @@ font-size: 4em;
     height: 37em;
     position: relative;
     bottom: 13em;
-    -moz-transform: rotate(-10deg);
-    -o-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-3<deg);
+    -moz-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30<deg);
   }
   .contenido-dos-genero-comntenido{
     justify-content: center;
