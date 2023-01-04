@@ -1,6 +1,6 @@
 import "../Comofunciona/comofunciona.css"
 import { Balance } from "../balance/Balanse"
-
+import { Carruseluno } from "../Carrusel-uno/Carruseluno"
 export const Comofunciona = () =>{
     return(
         <div className="contenedor-comofunciona">
@@ -51,7 +51,7 @@ export const Comofunciona = () =>{
                 </figure>
             </div>
             <Balance/>
-        
+            <Carruseluno/>
         </div>
     )
 }

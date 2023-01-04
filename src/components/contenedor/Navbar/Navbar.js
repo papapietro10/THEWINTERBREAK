@@ -18,17 +18,11 @@ export const NavBar = ()=>{
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
+             
               <Navcomofunciona/>
-              <Nav.Link  className="nav" href="/Preguntasfrecuentes">SOBRE NOSOTROS</Nav.Link>
-              <NavDropdown  title="DESTINOS" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">CERRO CHAPELCO</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.2">LAS LEÑAS</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.3">CERRO CATEDRAL</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">CERRO CASTOR</NavDropdown.Item>
-              </NavDropdown>
+            
+
+             
             </Nav>
             <Nav>
               

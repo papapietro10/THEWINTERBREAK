@@ -11,6 +11,7 @@ import {Titulopaquetes} from "../ProductoDetalles/Parte2"
 import "../Footer/footer.css";
 import { ReservaFechas } from "../ProductoDetalles/Parte1";
 import {InicioUno } from "../inicio-uno/InicioUno"
+import { Carruseluno } from "../Carrusel-uno/Carruseluno";
 export const Inicio = ()=>{
     const {categoria} = useParams();
 
@@ -45,7 +46,7 @@ export const Inicio = ()=>{
             <div className="contenedor-cards">
                 <ItemList items={productos}/>
             </div>
-            
+            <Carruseluno/>
         </div>
     )
 }
