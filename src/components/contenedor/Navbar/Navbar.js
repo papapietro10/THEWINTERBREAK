@@ -7,6 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import {CartWidget} from '../CarritoNav/Carrito'
 import "../Navbar/nav.css"
 import { Link } from 'react-router-dom';
+import {Navcomofunciona} from "../Navbar/Navcomofunciona"
 export const NavBar = ()=>{
     return(
       <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" >
@@ -17,7 +18,7 @@ export const NavBar = ()=>{
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link className="nav" href="/Comofunciona">COMO FUNCIONA</Nav.Link>
+              <Navcomofunciona/>
               <Nav.Link  className="nav" href="/Preguntasfrecuentes">SOBRE NOSOTROS</Nav.Link>
               <NavDropdown  title="DESTINOS" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">CERRO CHAPELCO</NavDropdown.Item>
