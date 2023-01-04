@@ -10,8 +10,8 @@ import { NavBar } from './components/contenedor/Navbar/Navbar';
 //import {EnviarMensaje} from './components/contenedor/Formulario/Formulario'
 import {ItemDetail} from "./components/contenedor/DetalleProducto/DetalleProducto"
 import {CartaProductos} from './components/contenedor/CartaProductos/cartaProductos'
-
-
+import { Comofunciona } from './components/contenedor/Comofunciona/Comofunciona';
+import { Preguntasfrecuentes } from './components/contenedor/Preguntasfrecuentes/Preguntasfrecuentes';
 function App() {
 
   return (
@@ -35,6 +35,8 @@ function App() {
                   <Route path='/carta' element={<CartaProductos/>}/>     
                   <Route path='/producto/:categoria' element={<CartaProductos/>}/> 
                   <Route path='/detalle' element={<ItemDetail/>}/> 
+                  <Route path='/Comofunciona' element={ <Comofunciona/>}/> 
+                  <Route path='/Preguntasfrecuentes' element={ <Preguntasfrecuentes/>}/> 
                 </Routes>
         
            
