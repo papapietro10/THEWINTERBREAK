@@ -18,7 +18,7 @@ export const NavBar = ()=>{
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link className="nav" href="/Comofunciona">COMO FUNCIONA</Nav.Link>
-              <Nav.Link  className="nav" href="Preguntasfrecuentes">SOBRE NOSOTROS</Nav.Link>
+              <Nav.Link  className="nav" href="/Preguntasfrecuentes">SOBRE NOSOTROS</Nav.Link>
               <NavDropdown  title="DESTINOS" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">CERRO CHAPELCO</NavDropdown.Item>
               <NavDropdown.Divider />
