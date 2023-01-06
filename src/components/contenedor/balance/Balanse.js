@@ -18,8 +18,6 @@ export const Balance = () =>{
                     <h5 className="texto-genero">Cada una de nuestras experiencias tiene cupos reservados una vez que se llenan se ponen a disposición los cupos neutros los cuales puede ser vendidos a cualquier pasajero sin importar el sexo.</h5>
                 </div>
             </div>
-
-            <img className="curva-balance" src="https://firebasestorage.googleapis.com/v0/b/thewinterbreack.appspot.com/o/BARRA-DOS.jpg?alt=media&token=53a36c88-ab17-4078-b650-c79831d6dcae" alt=""/>
        
         </div>
 

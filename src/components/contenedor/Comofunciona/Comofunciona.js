@@ -88,7 +88,7 @@ export const Comofunciona = () =>{
             <Balance/>
             <Carruseluno/>
             <div className="conoce-destinos">
-                <h5 >CONOCE NUESTROS DESTINOS</h5>
+                <h5 className="conoce-destinos-title" >CONOCE NUESTROS DESTINOS</h5>
             </div>
             <Destinoslist items={productos}/>
         </div>
