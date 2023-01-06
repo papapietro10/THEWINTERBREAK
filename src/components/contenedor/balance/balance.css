@@ -107,7 +107,7 @@ bottom: 1em;
   .contenido-dos-genero{
     flex-direction: column;
       width: 100%;
-      height: 40em;
+      height: 45em;
     }
     .contenido-dos-genero img{
     width: 95%;
@@ -146,7 +146,7 @@ bottom: 1em;
   .contenido-dos-genero{
     flex-direction: column;
       width: 100%;
-      height: 45em;
+      height: 49em;
     }
     .contenido-dos-genero img{
     width: 95%;
@@ -185,7 +185,7 @@ bottom: 1em;
   .contenido-dos-genero{
     flex-direction: column;
       width: 100%;
-      height: 45em;
+      height: 49em;
     }
     .contenido-dos-genero img{
     width: 85%;
@@ -212,7 +212,7 @@ bottom: 1em;
     }
     .faq{
       height: 100%;
-      background-color: black;
+   
     }
     .faq h4{
   font-size: 2.5em;

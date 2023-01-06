@@ -3,7 +3,7 @@
 }
 .contenedor-footer{
   display: flex;
-  overflow: hidden;
+  
   justify-content: space-evenly;
   align-items: center;
   font-family: 'Lato', sans-serif;
@@ -75,16 +75,12 @@
 
 
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 400px) {
   .contenedor-footer{
     flex-wrap: wrap;
  
   }
 
 }
-@media only screen and (min-width: 480px) and (max-width: 640px) {
-  .contenedor-footer{
-    flex-wrap: wrap;
-  }
 
-}
+

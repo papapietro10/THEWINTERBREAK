@@ -17,7 +17,7 @@ export const Item = ({item})=>{
             </Link>
           </div>
     
-          
+          <div className="rating">{item.calificacion}</div>
           <figcaption>
           <Link to={`/item/${item.id}`} className="link">
             <p>{item.desc}</p>
