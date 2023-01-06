@@ -13,6 +13,7 @@ import {CartaProductos} from './components/contenedor/CartaProductos/cartaProduc
 import { Comofunciona } from './components/contenedor/Comofunciona/Comofunciona';
 import { Preguntasfrecuentes } from './components/contenedor/Preguntasfrecuentes/Preguntasfrecuentes';
 import { Carruseluno } from './components/contenedor/Carrusel-uno/Carruseluno';
+
 function App() {
 
   return (
@@ -39,7 +40,7 @@ function App() {
                   <Route path='/Comofunciona' element={ <Comofunciona/>}/> 
                   <Route path='/Preguntasfrecuentes' element={ <Preguntasfrecuentes/>}/> 
                   <Route path='/Carruseluno' element={ <Carruseluno/>}/> 
-                </Routes>
+               </Routes>
         
            
         </div>

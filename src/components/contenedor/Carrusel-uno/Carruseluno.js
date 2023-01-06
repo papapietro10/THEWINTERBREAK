@@ -1,11 +1,15 @@
 import Carousel from 'react-bootstrap/Carousel';
 import "../Carrusel-uno/carruseluno.css"
-import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+
+
+
+
 export const Carruseluno = () =>{
+    
     return(
         <div className='contendor-carrusel' > 
-        <h4 data-aos="zoom-in-down">SE PARTE DE NUESTRA EXPERIENCIA</h4>
-            <Button data-aos="zoom-in-down" variant="secondary">Conoce nuestros destinos</Button>
             <Carousel  className='contendor-carrusel-imagenes' fade>
              
                 <Carousel.Item>
@@ -132,6 +136,7 @@ export const Carruseluno = () =>{
                 </Carousel.Item>
 
             </Carousel>
+      
         </div>
     
 

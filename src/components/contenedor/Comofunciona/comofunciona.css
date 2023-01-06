@@ -3,6 +3,24 @@
     width: 100%;
     font-family: 'Lato', sans-serif;
 }
+.contenedor-comofunciona h4{
+  color: rgb(0, 0, 0);
+  font-size: 4em;
+  margin-top: 1em;
+}
+.conoce-destinos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: #000000;
+height: 100%;
+}
+
+.conoce-destinos h5{
+  color: rgb(255, 255, 255);
+  font-size: 4em;
+  margin-top: 1.5em;
+}
 
 .contenedor-comofunciona-titulo-imagen{
     display: flex;
@@ -138,6 +156,7 @@ height: 50em;
     width: 100%;
     height: 150em;
   }
+  
   }
   @media only screen and (min-width: 440px) and (max-width: 540px) {
     .contenedor-comofunciona-titulo-imagen{
@@ -153,6 +172,17 @@ height: 50em;
     width: 100%;
     height: 150em;
   }
+  .conoce-destinos{
+  
+      
+    height: 15em;
+    }
+    
+    .conoce-destinos h5{
+      color: rgb(255, 255, 255);
+      font-size: 4em;
+      margin-top: 0em;
+    }
   
   }
   @media only screen and (min-width: 540px) and (max-width: 640px){
@@ -179,6 +209,17 @@ height: 50em;
     .contenedor-comofunciona{
       height: 100em;
     }
+    .conoce-destinos{
+  
+      
+      height: 15em;
+      }
+      
+      .conoce-destinos h5{
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: 0em;
+      }
   }
   @media only screen and (min-width: 670px) and (max-width: 700px) {
   
@@ -189,6 +230,18 @@ height: 50em;
     .contenedor-comofunciona{
       height: 100em;
     }
+    .conoce-destinos{
+  
+      
+      height: 15em;
+      }
+      
+      .conoce-destinos h5{
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: 0em;
+      }
+    
   }
   @media only screen and (min-width: 700px) and (max-width: 800px){
     .contenedor-comofunciona-pasos{
@@ -199,6 +252,17 @@ height: 50em;
     .contenedor-comofunciona{
       height: 130em;
     }
+    .conoce-destinos{
+  
+      
+      height: 15em;
+      }
+      
+      .conoce-destinos h5{
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: 0em;
+      }
   }
   @media only screen and (min-width: 800px) and (max-width: 940px) {
     .contenedor-comofunciona-pasos{
@@ -206,12 +270,34 @@ height: 50em;
       height: 90em;
       
     }
+    .conoce-destinos{
+  
+      
+      height: 15em;
+      }
+      
+      .conoce-destinos h5{
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: 0em;
+      }
    
   }
   @media only screen and (min-width: 840px) and (max-width: 940px) {
     .contenedor-comofunciona{
       height: 130em;
     }
+    .conoce-destinos{
+  
+      
+      height: 15em;
+      }
+      
+      .conoce-destinos h5{
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: 0em;
+      }
   }
   @media only screen and (min-width: 940px) and (max-width: 1000px){
     .contenedor-comofunciona-pasos{
@@ -221,6 +307,17 @@ height: 50em;
     .contenedor-comofunciona{
       height: 100em;
     }
+    .conoce-destinos{
+  
+      
+      height: 15em;
+      }
+      
+      .conoce-destinos h5{
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: 0em;
+      }
   }
   @media only screen and (min-width: 1000px) and (max-width: 1100px){
     .contenedor-comofunciona-pasos{
@@ -230,6 +327,17 @@ height: 50em;
     .contenedor-comofunciona{
       height: 100em;
     }
+    .conoce-destinos{
+  
+      
+      height: 15em;
+      }
+      
+      .conoce-destinos h5{
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: 0em;
+      }
   }
   @media only screen and (min-width: 1100px) and (max-width: 1200px){
     .contenedor-comofunciona-pasos{
@@ -239,6 +347,17 @@ height: 50em;
     .contenedor-comofunciona{
       height: 100em;
     }
+    .conoce-destinos{
+  
+      
+      height: 15em;
+      }
+      
+      .conoce-destinos h5{
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: 0em;
+      }
   }
   @media only screen and (min-width: 1200px) and (max-width: 1300px){
     .contenedor-comofunciona-pasos{
@@ -248,6 +367,17 @@ height: 50em;
     .contenedor-comofunciona{
       height: 100em;
     }
+    .conoce-destinos{
+  
+      
+      height: 15em;
+      }
+      
+      .conoce-destinos h5{
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: 0em;
+      }
   }
 
   @media only screen and (min-width: 1300px) and (max-width: 1400px){
@@ -258,4 +388,15 @@ height: 50em;
     .contenedor-comofunciona{
       height: 100em;
     }
+    .conoce-destinos{
+  
+      
+      height: 15em;
+      }
+      
+      .conoce-destinos h5{
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin-top: 0em;
+      }
   }

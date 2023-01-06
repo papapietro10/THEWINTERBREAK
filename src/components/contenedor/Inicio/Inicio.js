@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import './Inicio.css';
 import { ItemList } from "../Carta/Carta";
+
 import { useParams } from "react-router-dom";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import { db } from "../Utils/firebase";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import {Video} from "../Videoinicio/Video"
@@ -12,6 +14,7 @@ import "../Footer/footer.css";
 import { ReservaFechas } from "../ProductoDetalles/Parte1";
 import {InicioUno } from "../inicio-uno/InicioUno"
 import { Carruseluno } from "../Carrusel-uno/Carruseluno";
+
 export const Inicio = ()=>{
     const {categoria} = useParams();
 
@@ -44,9 +47,10 @@ export const Inicio = ()=>{
             <ReservaFechas/>
             <Titulopaquetes/>
             <div className="contenedor-cards">
-                <ItemList items={productos}/>
+            <ItemList items={productos}/>
             </div>
             <Carruseluno/>
+           
         </div>
     )
 }

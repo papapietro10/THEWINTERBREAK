@@ -228,12 +228,13 @@ figure.snip1195.hover .add-to-cart {
 
 
  
- 
- 
 
 
 @media only screen and (min-width: 320px) and (max-width: 440px) {
-
+figure.snip1195{
+  min-width: 200px;
+  max-width: 330px;
+}
   .container-fechas-reservas{
     height: 110em;
   }
@@ -284,7 +285,7 @@ figure.snip1195.hover .add-to-cart {
     width: 80%;
     text-align: left;
     margin-top: 1.5em;
-    font-size: 1.1em;
+    font-size: 1.5em;
   }
   
   .container-titulo{
@@ -308,6 +309,10 @@ figure.snip1195.hover .add-to-cart {
   
 }
 @media only screen and (min-width: 440px) and (max-width: 540px) {
+  figure.snip1195{
+    min-width: 200px;
+    max-width: 330px;
+  }
   .container-fechas-reservas{
     height: 110em;
   }

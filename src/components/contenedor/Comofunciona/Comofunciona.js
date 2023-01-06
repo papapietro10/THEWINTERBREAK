@@ -1,7 +1,42 @@
 import "../Comofunciona/comofunciona.css"
 import { Balance } from "../balance/Balanse"
 import { Carruseluno } from "../Carrusel-uno/Carruseluno"
+/*EXPORTAMOS LA INFORMACION DE LA BASE DE DATOS*/
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { collection, getDocs, query, where } from "firebase/firestore";
+import { db } from "../Utils/firebase";
+/*exportamos el contenedor de los paquetes*/
+import {Destinoslist} from "../Destinoslist/Destinoslist"
 export const Comofunciona = () =>{
+
+    const {categoria} = useParams();
+
+    const [productos, setProductos] = useState([]);
+
+    useEffect(()=>{
+        const getData = async()=>{
+            try {
+                let queryRef = !categoria ? collection(db,"items") :query(collection(db,"items"),where("categoria","==",categoria));
+                const response = await getDocs(queryRef);
+                const datos = response.docs.map(doc=>{
+                    const newDoc = {
+                        ...doc.data(),
+                        id:doc.id
+                    }
+                    return newDoc;
+                });
+                setProductos(datos)
+            } catch (error) {
+                console.log(error);
+            }
+        }
+        getData();
+        
+    },[categoria])
+
+
+
     return(
         <div className="contenedor-comofunciona">
             <div className="contenedor-comofunciona-titulo-imagen">
@@ -52,6 +87,10 @@ export const Comofunciona = () =>{
             </div>
             <Balance/>
             <Carruseluno/>
+            <div className="conoce-destinos">
+                <h5 >CONOCE NUESTROS DESTINOS</h5>
+            </div>
+            <Destinoslist items={productos}/>
         </div>
     )
 }
