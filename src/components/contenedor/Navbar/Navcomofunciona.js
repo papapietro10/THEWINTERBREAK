@@ -11,7 +11,7 @@ export const Navcomofunciona = ()=>{
                 <>
                
                 <Link to="/Comofunciona" className="link">
-                    <p className='inicio-anto'>COMO FUNCIONA</p>
+                    <p className='nav-comofunciona'>COMO FUNCIONA</p>
                 </Link>
                     
                 </>

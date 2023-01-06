@@ -15,6 +15,7 @@ import { Preguntasfrecuentes } from './components/contenedor/Preguntasfrecuentes
 import { Carruseluno } from './components/contenedor/Carrusel-uno/Carruseluno';
 import { Footer } from './components/contenedor/Footer/Footer';
 import { ScrollButton } from './components/contenedor/ScrollButton/ScrollButton';
+
 function App() {
 
   return (
@@ -35,17 +36,17 @@ function App() {
                   <Route path="/cart" element={<CartContainer/>}/>
                   <Route path="/anto" element={<Anto/>}/>
                   <Route path='*' element={<Inicio/>}/>       
-                  <Route path='/carta' element={<CartaProductos/>}/>     
+                  <Route path='/CartaProductos' element={<CartaProductos/>}/>     
                   <Route path='/producto/:categoria' element={<CartaProductos/>}/> 
                   <Route path='/detalle' element={<ItemDetail/>}/> 
                   <Route path='/Comofunciona' element={ <Comofunciona/>}/> 
                   <Route path='/Preguntasfrecuentes' element={ <Preguntasfrecuentes/>}/> 
-                  <Route path='/Carruseluno' element={ <Carruseluno/>}/> 
-                      
+                  <Route path='/Carruseluno' element={ <Carruseluno/>}/>  
                </Routes>
                <ScrollButton/>
-           <Footer/>
+               <Footer/>
         </div>
+        
       </BrowserRouter>
   
     </CartProvider>

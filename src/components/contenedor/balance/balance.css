@@ -5,21 +5,23 @@
   background-color: #fff;
   display: flex;
   width: 100%;
-  height: 20em;
+  height: 100%
 }
 
 .contenido-dos-genero img{
 width: 32em;
 height: 37em;
 position: relative;
-bottom: 20.5em;
+bottom: 13em;
 
 }
 
 .contenido-dos-genero h4{
   width: 80%;
   font-size: 2.5em;
-  margin-bottom: 0.4em;
+  color:rgb(0, 0, 0);
+  height: 20%;
+
   }
   .contenido-dos-genero p{
     width: 80%;
@@ -30,7 +32,7 @@ bottom: 20.5em;
     width: 50%;
     text-align: justify;
    position: relative;
-   left: 9em;
+   left: 10em;
   }
 .contenido-dos-genero-comntenido{
   display: flex;
@@ -46,7 +48,7 @@ width: 100%;
 }
 
 .faq{
-  height: 59em;
+ height: 100%;
   display: flex;
   flex-direction: column;
   flex-grow: inherit;
@@ -107,7 +109,7 @@ bottom: 1em;
   .contenido-dos-genero{
     flex-direction: column;
       width: 100%;
-      height: 45em;
+      height: 100%;
     }
     .contenido-dos-genero img{
     width: 95%;
@@ -128,6 +130,7 @@ bottom: 1em;
       text-align: justify;
      position: relative;
      left: -0em;
+     height: 100%;
     }
     .contenido-dos-genero h4{
       font-size: 2.5em;
@@ -146,7 +149,7 @@ bottom: 1em;
   .contenido-dos-genero{
     flex-direction: column;
       width: 100%;
-      height: 49em;
+      height: 100%;
     }
     .contenido-dos-genero img{
     width: 95%;
@@ -167,6 +170,7 @@ bottom: 1em;
       text-align: justify;
      position: relative;
      left: -0em;
+     height: 100%;
     }
     .contenido-dos-genero h4{
       font-size: 3em;
@@ -185,7 +189,7 @@ bottom: 1em;
   .contenido-dos-genero{
     flex-direction: column;
       width: 100%;
-      height: 49em;
+      height: 100%;
     }
     .contenido-dos-genero img{
     width: 85%;
@@ -225,7 +229,7 @@ bottom: 1em;
   .contenido-dos-genero{
     flex-direction: column;
       width: 100%;
-      height: 45em;
+      height: 100%;
     }
     .contenido-dos-genero img{
     width: 89%;
@@ -246,6 +250,7 @@ bottom: 1em;
       text-align: justify;
      position: relative;
      left: -0em;
+     height: 100%;
     }
     .contenido-dos-genero h4{
       font-size: 4em;
@@ -261,7 +266,7 @@ bottom: 1em;
     }
     .faq{
       height: 100%;
-      background-color: black;
+    
     }
     .faq h4{
   font-size: 2.5em;
@@ -274,7 +279,7 @@ bottom: 1em;
   .contenido-dos-genero{
     flex-direction: column;
       width: 100%;
-      height: 45em;
+      height: 100%;
     }
     .contenido-dos-genero img{
     width: 89%;
@@ -295,13 +300,14 @@ bottom: 1em;
       text-align: justify;
      position: relative;
      left: -0em;
+     height: 100%;
     }
     .contenido-dos-genero h4{
       font-size: 4em;
     }
     .faq{
       height: 100%;
-      background-color: black;
+    
     }
     .faq h4{
   font-size: 2.5em;
@@ -313,7 +319,7 @@ bottom: 1em;
 @media only screen and (min-width: 800px) and (max-width: 940px) {
   .contenido-dos-genero{
       width: 100%;
-      height: 25em;
+      height: 100%;
     }
     .contenido-dos-genero img{
     width: 65%;
@@ -334,13 +340,14 @@ bottom: 1em;
       text-align: justify;
      position: relative;
      left: -0em;
+     height: 100%;
     }
     .contenido-dos-genero h4{
       font-size: 3em;
     }
     .faq{
       height: 100%;
-      background-color: black;
+      
     }
     .faq h4{
   font-size: 3em;
@@ -352,7 +359,7 @@ bottom: 1em;
 @media only screen and (min-width: 840px) and (max-width: 940px) {
   .contenido-dos-genero{
     width: 100%;
-    height: 25em;
+    height: 100%;
   }
   .contenido-dos-genero img{
   width: 65%;
@@ -379,7 +386,7 @@ bottom: 1em;
   }
   .faq{
     height: 100%;
-    background-color: black;
+  
   }
   .faq h4{
 font-size: 3em;
@@ -392,7 +399,7 @@ bottom: 1.5em;
 @media only screen and (min-width: 940px) and (max-width: 1000px){
   .contenido-dos-genero{
     width: 100%;
-    height: 25em;
+    height: 100%;
   }
   .contenido-dos-genero img{
   width: 65%;
@@ -419,7 +426,7 @@ bottom: 1.5em;
   }
   .faq{
     height: 100%;
-    background-color: black;
+   
   }
   .faq h4{
 font-size: 3em;
@@ -431,7 +438,7 @@ bottom: 1.5em;
 @media only screen and (min-width: 1000px) and (max-width: 1100px){
   .contenido-dos-genero{
     width: 100%;
-    height: 25em;
+    height: 100%;
   }
   .contenido-dos-genero img{
   width: 65%;
@@ -458,7 +465,7 @@ bottom: 1.5em;
   }
   .faq{
     height: 100%;
-    background-color: black;
+    
   }
   .faq h4{
 font-size: 3em;
@@ -470,7 +477,7 @@ bottom: 1.5em;
 @media only screen and (min-width: 1100px) and (max-width: 1200px){
   .contenido-dos-genero{
     width: 100%;
-    height: 25em;
+    height: 100%;
   }
   .contenido-dos-genero img{
   width: 65%;
@@ -497,7 +504,7 @@ bottom: 1.5em;
   }
   .faq{
     height: 100%;
-    background-color: black;
+    
   }
   .faq h4{
 font-size: 3em;
@@ -509,7 +516,7 @@ bottom: 1.5em;
 @media only screen and (min-width: 1200px) and (max-width: 1300px){
   .faq{
     height: 100%;
-    background-color: black;
+
   }
   .faq h4{
 font-size: 3em;
@@ -521,7 +528,7 @@ bottom: 1.5em;
 @media only screen and (min-width: 1300px) and (max-width: 1400px){
   .faq{
     height: 100%;
-    background-color: black;
+    
   }
   .faq h4{
 font-size: 3em;

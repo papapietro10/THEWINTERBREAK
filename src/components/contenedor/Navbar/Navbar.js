@@ -8,6 +8,7 @@ import {CartWidget} from '../CarritoNav/Carrito'
 import "../Navbar/nav.css"
 import { Link } from 'react-router-dom';
 import {Navcomofunciona} from "../Navbar/Navcomofunciona"
+import { Destinonav } from "./Destinosnav";
 export const NavBar = ()=>{
     return(
       <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" >
@@ -17,11 +18,13 @@ export const NavBar = ()=>{
         </Link>  
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-             
+            <Nav className="me-auto links-nav">
+             <div>  
               <Navcomofunciona/>
-            
-
+            </div>
+            <div>
+              <Destinonav/>
+            </div>
              
             </Nav>
             <Nav>

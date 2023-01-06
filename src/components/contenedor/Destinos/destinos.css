@@ -7,7 +7,7 @@ figure.snip1278 {
     margin: 10px;
     min-width: 230px;
     max-width: 300px;
-  
+  height: 18em;
     background: #1a1a1a;
     color: #ffffff;
     text-align: center;
@@ -45,7 +45,7 @@ figure.snip1278 {
     color: #ffffff;
     left: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.652);
   }
   figure.snip1278 figcaption {
     position: absolute;
@@ -97,7 +97,7 @@ figure.snip1278 {
     right: 0;
     font-weight: 600;
     width: 50%;
-    height: 10%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;

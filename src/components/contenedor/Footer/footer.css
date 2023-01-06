@@ -83,4 +83,18 @@
 
 }
 
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  .contenedor-footer{
+    flex-wrap: wrap;
+ 
+  }
 
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  .contenedor-footer{
+    flex-wrap: wrap;
+ 
+  }
+
+}

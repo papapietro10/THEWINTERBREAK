@@ -117,7 +117,9 @@ letter-spacing: 0.1em;
 
 
 /*cards*/
-
+.contenedor-cards-prueba{
+  height: 100%;
+}
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600);
 figure.snip1195 {
   font-family: 'Lato', sans-serif;
@@ -795,6 +797,7 @@ figure.snip1195{
   .container-fechas-reservas{
     height: 110em;
   }
+  
   .parte1 {
     width: 90%;
     height: 40%;
@@ -1013,6 +1016,9 @@ figure.snip1195{
 @media only screen and (min-width: 1100px) and (max-width: 1200px){
   .container-fechas-reservas{
     height: 110em;
+  }
+  .contenedor-cards-prueba{
+    height: 100%;
   }
   .parte1 {
     width: 90%;

@@ -6,7 +6,7 @@
 }
 .scrollbtn{
    position: fixed;
-   z-index:999; 
+   z-index:99; 
    bottom:1vh;
 margin-right: 2em;
   border-radius: 50%;
@@ -17,6 +17,6 @@ margin-right: 2em;
    cursor: pointer;
    outline: 0;
    border: 0;
-   transition: all 0.3s ease-out;
+  
 }
 
