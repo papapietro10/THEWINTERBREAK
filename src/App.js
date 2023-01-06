@@ -13,7 +13,8 @@ import {CartaProductos} from './components/contenedor/CartaProductos/cartaProduc
 import { Comofunciona } from './components/contenedor/Comofunciona/Comofunciona';
 import { Preguntasfrecuentes } from './components/contenedor/Preguntasfrecuentes/Preguntasfrecuentes';
 import { Carruseluno } from './components/contenedor/Carrusel-uno/Carruseluno';
-
+import { Footer } from './components/contenedor/Footer/Footer';
+import { ScrollButton } from './components/contenedor/ScrollButton/ScrollButton';
 function App() {
 
   return (
@@ -25,7 +26,7 @@ function App() {
         <div className="App">
         <NavBar/>  
            
-          
+           <ScrollButton/>
             
                 <Routes>
                  
@@ -40,9 +41,10 @@ function App() {
                   <Route path='/Comofunciona' element={ <Comofunciona/>}/> 
                   <Route path='/Preguntasfrecuentes' element={ <Preguntasfrecuentes/>}/> 
                   <Route path='/Carruseluno' element={ <Carruseluno/>}/> 
+                      
                </Routes>
-        
-           
+               <ScrollButton/>
+           <Footer/>
         </div>
       </BrowserRouter>
   
