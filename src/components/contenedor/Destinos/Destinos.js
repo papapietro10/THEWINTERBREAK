@@ -20,7 +20,7 @@ export const Destinos = ({item}) =>{
             <figcaption>
               <p>{item.desc}</p>
               <div className="price">
-                <s>{item.price1}</s>{item.price}
+                <s>{item.price2}</s>{item.price}
               </div>
             </figcaption>
 

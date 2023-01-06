@@ -306,7 +306,22 @@ figure.snip1195{
     width: 100%;
     text-align: center;
   }
-  
+  figure.snip1195 .price {
+    color: #ffffff;
+    font-size: 1.1em;
+    opacity: 0.8;
+    text-align: center;
+    display: flex;
+  }
+  figure.snip1195 .price s {
+    display: inline-block;
+    padding: 0 8px 0 0;
+    font-size: 0.85em;
+    color: #f39c12;
+  }
+  figure.snip1195 .add-to-cart {
+    line-height: 30px;
+  }
 }
 @media only screen and (min-width: 440px) and (max-width: 540px) {
   figure.snip1195{
@@ -384,7 +399,22 @@ figure.snip1195{
     width: 100%;
     text-align: center;
   }
-
+  figure.snip1195 .price {
+    color: #ffffff;
+    font-size: 1.1em;
+    opacity: 0.8;
+    text-align: center;
+    display: flex;
+  }
+  figure.snip1195 .price s {
+    display: inline-block;
+    padding: 0 8px 0 0;
+    font-size: 0.85em;
+    color: #f39c12;
+  }
+  figure.snip1195 .add-to-cart {
+    line-height: 30px;
+  }
 }
 @media only screen and (min-width: 540px) and (max-width: 640px){
   .container-fechas-reservas{

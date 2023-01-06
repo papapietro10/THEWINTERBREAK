@@ -23,7 +23,7 @@ export const Item = ({item})=>{
             <p>{item.desc}</p>
           </Link>
             <div className="price">
-              <s>{item.price1}</s>{item.price}
+              <s>{item.price2}</s>{item.price}
             </div>
           </figcaption>
           <Link to={`/item/${item.id}`} className="link">
