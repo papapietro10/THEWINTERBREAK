@@ -25,7 +25,7 @@ export const CommonSection = (props) => {
                 loop
                 muted
                 alt="All the devices"
-                src="https://firebasestorage.googleapis.com/v0/b/thewinterbreack.appspot.com/o/destinos-videos.mp4?alt=media&token=3563ea1d-4bab-470d-9234-ed97dc7c633f"
+                src="https://firebasestorage.googleapis.com/v0/b/thewinterbreack.appspot.com/o/VIDEODESTINOS.mp4?alt=media&token=f9f103e4-dcba-4c34-8958-38da04f893bd"
                 ref={videoEl}
    
               />
