@@ -61,53 +61,97 @@
     margin-top: 1em;
 }
 .carrito-vacio{
-margin-top: 5em;    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 40em;
+background-color: #fff; 
+}
+.carrito-vacio h2{
+    height: 20%;
+    font-size: 4em;
+}
+.carrito-vacio p{
+    height: 20%;
+    font-size: 2em;
+}
+.carrito-vacio button{
+    background-color: rgba(0, 0, 0, 0.593);
+    font-size: 2em;
+}
+.span-icon{
+ position: relative;
+ bottom: 0.1em;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .formulario-carga{
-     
-       width: 80%;
-      
+@media only screen and (min-width: 320px) and (max-width: 440px) {
+    .carrito-vacio{
+        height: 40em;
     }
-    .formulario-carga h2{
-       font-size: 1.3em;
+    .carrito-vacio h2{
+        height: 30%;
+        font-size: 2.7em;
+        width: 90%;
+        text-align: center;
     }
-    .carrito-vacio img{
-        width: 60%;
+  }
+  @media only screen and (min-width: 440px) and (max-width: 540px){
+    .carrito-vacio{
+        height: 40em;
     }
-}
-@media only screen and (min-width: 480px) and (max-width: 640px){
-    .formulario-carga{
-       width: 80%;
+    .carrito-vacio h2{
+        height: 30%;
+        font-size: 2.7em;
+        width: 90%;
+        text-align: center;
     }
-    .formulario-carga h2{
-        font-size: 1.7em;
-     }
-     .carrito-vacio img{
-        width: 60%;
+  }
+  @media only screen and (min-width: 540px) and (max-width: 640px) {
+    .carrito-vacio{
+        height: 40em;
     }
-}
-
-@media only screen and (min-width: 640px) and (max-width: 740px){
-    .formulario-carga{
-        width: 80%;
-     }
-     .formulario-carga h2{
-        font-size: 1.7em;
-     }
-     .carrito-vacio img{
-        width: 60%;
+    .carrito-vacio h2{
+        height: 25%;
+        font-size: 2.7em;
+        width: 90%;
+        text-align: center;
     }
-}
-@media only screen and (min-width: 740px) and (max-width: 840px){
-    .formulario-carga{
-        width: 80%;
-     }
-     .formulario-carga h2{
-        font-size: 1.7em;
-     }
-     .carrito-vacio img{
-        width: 60%;
+  }
+  @media only screen and (min-width: 640px) and (max-width: 740px) {
+    .carrito-vacio{
+        height: 40em;
     }
-}
+    .carrito-vacio h2{
+        height: 20%;
+        font-size: 2.7em;
+        width: 90%;
+        text-align: center;
+    }
+  }
+  @media only screen and (min-width: 740px) and (max-width: 840px){
+    .carrito-vacio{
+        height: 40em;
+    }
+    .carrito-vacio h2{
+        height: 20%;
+        font-size: 3em;
+        width: 90%;
+        text-align: center;
+    }
+  }
+  @media only screen and (min-width: 800px) and (max-width: 940px) {
+   
+  }
+  @media only screen and (min-width: 840px) and (max-width: 940px) {
+   
+  }
+  @media only screen and (min-width: 940px) and (max-width: 100px){
+    
+  }
+  @media only screen and (min-width: 100px) and (max-width: 200px){
+    
+  }
+  @media only screen and (min-width: 1100px) and (max-width: 1200px){
+  
+  }

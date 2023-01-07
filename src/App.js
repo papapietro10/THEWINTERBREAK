@@ -5,7 +5,7 @@ import { Inicio } from './components/contenedor/Inicio/Inicio';
 import { ItemDetailContainer } from './components/contenedor/containerDetalle/containerDetalle';
 import { CartContainer } from './components/contenedor/Carroordenform/CarroOrdenForm';
 import { CartProvider } from './context/CartContext';
-import {Anto} from './components/contenedor/Anto/Anto';
+import {Sobrenosotros} from './components/contenedor/Sobrenosotros/Sobrenosotros.js';
 import { NavBar } from './components/contenedor/Navbar/Navbar';
 //import {EnviarMensaje} from './components/contenedor/Formulario/Formulario'
 import {ItemDetail} from "./components/contenedor/DetalleProducto/DetalleProducto"
@@ -15,7 +15,7 @@ import { Preguntasfrecuentes } from './components/contenedor/Preguntasfrecuentes
 import { Carruseluno } from './components/contenedor/Carrusel-uno/Carruseluno';
 import { Footer } from './components/contenedor/Footer/Footer';
 import { ScrollButton } from './components/contenedor/ScrollButton/ScrollButton';
-
+import { Inicionav } from './components/contenedor/Navbar/Inicio';
 function App() {
 
   return (
@@ -34,7 +34,7 @@ function App() {
                   <Route path="/productos/:categoria" element={<Inicio />}/>
                   <Route path="/item/:productId" element={<ItemDetailContainer/>}/>
                   <Route path="/cart" element={<CartContainer/>}/>
-                  <Route path="/anto" element={<Anto/>}/>
+                  <Route path="/Sobrenosotros" element={<Sobrenosotros/>}/>
                   <Route path='*' element={<Inicio/>}/>       
                   <Route path='/CartaProductos' element={<CartaProductos/>}/>     
                   <Route path='/producto/:categoria' element={<CartaProductos/>}/> 
@@ -42,6 +42,7 @@ function App() {
                   <Route path='/Comofunciona' element={ <Comofunciona/>}/> 
                   <Route path='/Preguntasfrecuentes' element={ <Preguntasfrecuentes/>}/> 
                   <Route path='/Carruseluno' element={ <Carruseluno/>}/>  
+                  <Route path='/Inicionav' element={ <Inicionav/>}/> 
                </Routes>
                <ScrollButton/>
                <Footer/>

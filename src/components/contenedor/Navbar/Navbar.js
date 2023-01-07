@@ -3,12 +3,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import { Sobrenosotrosnav } from "./Sobrenosotrosnav";
 import {CartWidget} from '../CarritoNav/Carrito'
 import "../Navbar/nav.css"
 import { Link } from 'react-router-dom';
 import {Navcomofunciona} from "../Navbar/Navcomofunciona"
 import { Destinonav } from "./Destinosnav";
+import { Inicionav } from "./Inicio";
+import { Faq } from "./Faq";
+
 export const NavBar = ()=>{
     return(
       <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" >
@@ -19,13 +22,24 @@ export const NavBar = ()=>{
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto links-nav">
+             <div>
+             <Inicionav/>
+             </div>
              <div>  
               <Navcomofunciona/>
             </div>
+
             <div>
               <Destinonav/>
             </div>
-             
+
+            <div>
+            <Sobrenosotrosnav/>
+            </div>
+
+            <div>
+            <Faq/>
+            </div>
             </Nav>
             <Nav>
               

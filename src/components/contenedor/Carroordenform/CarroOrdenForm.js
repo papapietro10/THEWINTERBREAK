@@ -9,6 +9,9 @@ import "./formulario.css"
 import Swal from 'sweetalert2'
 import {Link} from 'react-router-dom';
 import {ImputForm} from '../Input/Imputs'
+import {TfiAngleDoubleRight}from "react-icons/tfi";
+import { Destinoslist } from '../Destinoslist/Destinoslist';
+
 
 export const CartContainer = () => {
 
@@ -126,9 +129,14 @@ const Alerta =()=>{
           :
 
          <div className='carrito-vacio'>
-         <img src="https://firebasestorage.googleapis.com/v0/b/fazio-df8ba.appspot.com/o/Captura%20de%20Pantalla%202022-09-28%20a%20la(s)%2013.10.52.png?alt=media&token=d68e2d3b-135f-46d0-8e8e-98739f1931b3" alt="hero-img" className="img-carrito-logo" />
-         <h2>No has agregado productos </h2>
-         <p>Tu carrito se encuentra en {getTotalPrice()}</p>
+         
+          <h2>Aún no has elegido un destino</h2>
+          <p >RESERVAS <span className='span-icon'><TfiAngleDoubleRight/></span> {getTotalPrice()}</p>
+
+        
+          <Link to="/CartaProductos" className="link">
+            <Button variant="dark">Ver destinos</Button>
+          </Link>
          </div>
           
           

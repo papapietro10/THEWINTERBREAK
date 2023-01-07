@@ -1,0 +1,18 @@
+
+.main-destinos {
+  width: 100%;
+height: 15em;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+background: linear-gradient(#1e1e1eb9, #02424478),
+}
+
+.video-destinos {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+
+
+}

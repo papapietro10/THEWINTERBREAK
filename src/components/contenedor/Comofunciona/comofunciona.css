@@ -2,9 +2,10 @@
     height: 100%;
     width: 100%;
     font-family: 'Lato', sans-serif;
+
 }
 .contenedor-comofunciona h4{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 4em;
   margin-top: 1em;
   height: 100%;
@@ -122,6 +123,7 @@ height: 100%;
   font-size: 0.8em;
   letter-spacing: 1px;
   opacity: 0.75;
+ 
 }
 .snip1345 a {
   position: absolute;
