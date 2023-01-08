@@ -7,6 +7,7 @@
   align-items: center;
   font-family: 'Lato', sans-serif;
   overflow: hidden;
+  font-family: 'Lato', sans-serif;
 }
 .container-fechas-reservas H4{
   font-size: 5em;
@@ -19,6 +20,7 @@
    flex-direction: column;
     align-items: center;
     height: 25em;
+    font-family: 'Lato', sans-serif;
   }
   .parte1 h4{
     font-size: 4em;
@@ -71,7 +73,7 @@ letter-spacing: 0.1em;
  }
 
  .admission{
-  background-color: #2d2828;
+  background: #121210cf;
   height: 15em;
   color: #ffffff;
   display: flex;
@@ -129,7 +131,7 @@ figure.snip1195 {
   min-width: 390px;
   max-width: 480px;
   width: 100%;
-  background: #1b1b1b;
+  background: #2d2d2bcf;
   color: #ffffff;
   text-align: justify;
   border-radius: 15px;

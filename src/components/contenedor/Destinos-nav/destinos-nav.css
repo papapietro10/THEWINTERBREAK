@@ -1,12 +1,12 @@
 figure.snip1224 {
-  font-family: 'Raleway', Arial, sans-serif;
+ 
   position: relative;
   overflow: hidden;
   margin: 10px;
   min-width: 400px;
   max-width: 480px;
   width: 100%;
-  background: #111010;
+  background: #2d2d2bcf;
   color: #ffffff;
   text-align: center;
   border-radius: 8px;
@@ -109,4 +109,64 @@ figure.snip1224.hover .add-to-cart {
   justify-content:center;
   align-items:flex-start;
 
+}
+
+@media only screen and (min-width: 320px) and (max-width: 440px) {
+  figure.snip1224 {
+ 
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 200px;
+    max-width: 330px;
+    width: 100%;
+    background: #2d2d2bcf;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+}
+@media only screen and (min-width: 440px) and (max-width: 540px) {
+  figure.snip1224 {
+ 
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 200px;
+    max-width: 330px;
+    width: 100%;
+    background: #2d2d2bcf;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+}
+@media only screen and (min-width: 540px) and (max-width: 640px){
+
+}
+@media only screen and (min-width: 640px) and (max-width: 740px) {
+
+}
+@media only screen and (min-width: 740px) and (max-width: 740px) {
+
+}
+@media only screen and (min-width: 740px) and (max-width: 840px){
+
+}
+@media only screen and (min-width: 840px) and (max-width: 940px) {
+
+}
+@media only screen and (min-width: 940px) and (max-width: 1040px) {
+
+}
+@media only screen and (min-width: 1040px) and (max-width: 1140px){
+
+}
+@media only screen and (min-width: 100px) and (max-width: 200px){
+ 
+}
+@media only screen and (min-width: 1100px) and (max-width: 1200px){
+ 
 }

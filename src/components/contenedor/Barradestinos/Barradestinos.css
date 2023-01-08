@@ -1,10 +1,57 @@
 
 .common__section-destinos {
-  background: linear-gradient(#00000090, #00070700),
-  url("https://firebasestorage.googleapis.com/v0/b/thewinterbreack.appspot.com/o/Barra1.png?alt=media&token=89a2ac98-e731-4eb8-8050-b6d76996a017");
+  background: linear-gradient(#84848490, #0000006d),
+  url("https://firebasestorage.googleapis.com/v0/b/thewinterbreack.appspot.com/o/barra1.png?alt=media&token=abe0842a-e591-4646-a6f7-8eda4e6882d7");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 150px 0px;
+  padding: 90px 0px;
   width: 100%;
+ 
+}
+
+.common__section-destinos h1 {
+  width: 100%;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 6em;
+ text-shadow: 0px 2px 5px rgb(0, 0, 0);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 440px) {
+  .common__section-destinos {
+    background: linear-gradient(#84848490, #0000006d),
+    url("https://firebasestorage.googleapis.com/v0/b/thewinterbreack.appspot.com/o/barra1.png?alt=media&token=abe0842a-e591-4646-a6f7-8eda4e6882d7");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 90px 0px;
+    width: 100%;
+
+  }
+  .common__section-destinos h1 {
+    font-size: 3em;
+  }
+
+}
+@media only screen and (min-width: 440px) and (max-width: 540px) {
+  .common__section-destinos {
+    background: linear-gradient(#84848490, #0000006d),
+    url("https://firebasestorage.googleapis.com/v0/b/thewinterbreack.appspot.com/o/barra1.png?alt=media&token=abe0842a-e591-4646-a6f7-8eda4e6882d7");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px;
+    width: 100%;
+
+  }
+  .common__section-destinos h1 {
+    font-size: 3em;
+    width: 100%;
+  }
+
 }

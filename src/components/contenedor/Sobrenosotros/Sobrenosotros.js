@@ -1,6 +1,5 @@
 import './Sobrenosotros.css';
 import React from "react";
-import { Barradestinos } from '../Barradestinos/Barradestinos';
 import {CommonSection} from "../common-section/CommonSection"
 
 export  const Sobrenosotros= ()=>{
