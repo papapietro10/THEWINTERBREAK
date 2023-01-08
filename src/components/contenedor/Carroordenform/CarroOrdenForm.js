@@ -10,8 +10,6 @@ import Swal from 'sweetalert2'
 import {Link} from 'react-router-dom';
 import {ImputForm} from '../Input/Imputs'
 import {TfiAngleDoubleRight}from "react-icons/tfi";
-import { Destinoslist } from '../Destinoslist/Destinoslist';
-
 
 export const CartContainer = () => {
 
@@ -46,7 +44,7 @@ export const CartContainer = () => {
       let nombre = document.getElementById('nombre').value;
       let apellido = document.getElementById('telefono').value;
       //let email = document.getElementById('email').value;
-      let numero= 5491176370334;
+      let numero= 5491138150584;
  
       window.open(`https://wa.me/${numero}?text=Hola! mi nombre es ${nombre}
       %20${apellido}, Muchas gracias por tu compra tu numero de orden es:${orden}`,'_blank');       
@@ -112,6 +110,7 @@ const Alerta =()=>{
               <div className="containerButton">
               
                 <div  id="enviarOrden" className='' >
+                
                   <Button className='' onClick={EnviarFormulario}  type="submi">Enviar orden </Button> 
                   
                   <div className="alert alert-success alertaConfirmacion" role="alert">

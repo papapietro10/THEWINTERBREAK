@@ -1,7 +1,7 @@
 import './Sobrenosotros.css';
 import React from "react";
-import { Videonosotros } from '../Videonosotros/Videonosotros';
-
+import { Barradestinos } from '../Barradestinos/Barradestinos';
+import {CommonSection} from "../common-section/CommonSection"
 
 export  const Sobrenosotros= ()=>{
     
@@ -13,7 +13,7 @@ export  const Sobrenosotros= ()=>{
           <p>Crear experiencias extraordinarias que propaguen alegría, generen aprecio por nuestro planeta e inspiren a las personas curiosas a formar parte de nuestra familia.</p>
           
        
-            <Videonosotros/>
+            <CommonSection/>
       
         </div>
           <div className="container-sobrenosotros" >

@@ -1,0 +1,10 @@
+
+.common__section-destinos {
+  background: linear-gradient(#00000090, #00070700),
+  url("https://firebasestorage.googleapis.com/v0/b/thewinterbreack.appspot.com/o/Barra1.png?alt=media&token=89a2ac98-e731-4eb8-8050-b6d76996a017");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0px;
+  width: 100%;
+}
