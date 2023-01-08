@@ -42,8 +42,9 @@ export const NavBar = ()=>{
             </div>
             </Nav>
             <Nav>
-              
-            <CartWidget  className="cart" />
+            <div className="cart" >
+              <CartWidget  />
+            </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
