@@ -9,18 +9,18 @@ export const Destinos = ({item}) =>{
     return(
     
           <figure className="snip1278">
-            <h4>{item.title}</h4>
+            <h4>{item.titulo}</h4>
 
             <div className="image">
-              <img src={item.pictureUrl} alt="item" />
+              <img src={item.imagen1} alt="item" />
             </div>
 
             <div className="rating">{item.calificacion} </div>
 
             <figcaption>
-              <p>{item.desc}</p>
+              <p>{item.descripcioncard}</p>
               <div className="price">
-                <s>{item.price2}</s>{item.price}
+                <s>{item.precio2}</s>{item.precio1}
               </div>
             </figcaption>
 

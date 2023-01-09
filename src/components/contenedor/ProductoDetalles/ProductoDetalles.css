@@ -9,6 +9,7 @@
   overflow: hidden;
   font-family: 'Lato', sans-serif;
 }
+
 .container-fechas-reservas H4{
   font-size: 5em;
   }
@@ -134,7 +135,7 @@ figure.snip1195 {
   background: #2d2d2bcf;
   color: #ffffff;
   text-align: justify;
-  border-radius: 15px;
+  border-radius: 0.9em;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.719);
 }
 figure.snip1195 * {
@@ -147,7 +148,7 @@ figure.snip1195 .image {
   background-color: #000000;
   width: 50%;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 figure.snip1195 .rating {
   position: absolute;
@@ -157,7 +158,14 @@ figure.snip1195 .rating {
   left: 0;
   bottom: 0;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 14%;
+  line-height: 44px;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 figure.snip1195 img {
   max-width: 100%;
@@ -180,13 +188,14 @@ figure.snip1195 .price {
 figure.snip1195 h4 {
   position: absolute;
   width: 50%;
-  top: 10px;
+  top: 0px;
   text-transform: uppercase;
   font-weight: 400;
   color: #ffffff;
   letter-spacing: 1px;
   z-index: 1;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.85);
 }
 figure.snip1195 p {
   font-size: 0.7em;
@@ -213,17 +222,22 @@ figure.snip1195 .price s {
 }
 figure.snip1195 .add-to-cart {
   text-decoration: none;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  font-weight: 600;
-  width: 50%;
-  background-color: rgba(3, 3, 3, 0.505);
-  line-height: 44px;
-  font-size: 0.75em;
-  text-transform: uppercase;
-  color: #d7d3d3;
-  border-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: 600;
+    width: 50%;
+    height: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.85);
+    line-height: 44px;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 0px;
 }
 figure.snip1195:hover img,
 figure.snip1195.hover img {

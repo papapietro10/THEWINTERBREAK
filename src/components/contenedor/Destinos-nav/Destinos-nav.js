@@ -11,10 +11,15 @@ export const DestinosNav = ({item}) =>{
     return(
     
       <figure className="snip1224">
-      <h4>{item.title}</h4>
+      <h4>{item.titulo}</h4>
       <div className="image">
-        <img alt="" src={item.pictureUrl} />
+      
+        <img alt="" src={item.imagen1} />
+        
       </div>
+      <div className="price">
+              <s>{item.precio2}</s>${item.precio1}
+            </div>
       <div className="rating">
        {item.calificacion}
       </div>
@@ -26,12 +31,12 @@ export const DestinosNav = ({item}) =>{
           <p>CULTURA:  {item.fiesta}</p> 
           <p>ACTIVIDADES:  {item.fiesta}</p>
           <p>SOL:  {item.fiesta}</p>
-          <p>SKI LEVEL: {item.level}</p>
+          <p>SKI LEVEL: {item.ski2}</p>
         </div>
       </figcaption>
       <Link to={`/item/${item.id}`} className="link">
             <Button  className="add-to-cart"  variant="secondary" >
-              VER MAS
+             VER MAS
             </Button>
           </Link>
     </figure>

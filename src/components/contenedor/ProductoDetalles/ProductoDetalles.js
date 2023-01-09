@@ -10,20 +10,20 @@ export const Item = ({item})=>{
     return(
       <div className='contenedor-cards-prueba'>
         <figure className="snip1195" data-aos="zoom-in-down">
-          <h4>{item.title}</h4>
+          <h4>{item.titulo}</h4>
           <div className="image">
           <Link to={`/item/${item.id}`} className="link">
-            <img src={item.pictureUrl} alt="" />
+            <img src={item.imagen1} alt="" />
             </Link>
           </div>
     
           <div className="rating">{item.calificacion}</div>
           <figcaption>
           <Link to={`/item/${item.id}`} className="link">
-            <p>{item.desc}</p>
+            <p>{item.descripcioncard}</p>
           </Link>
             <div className="price">
-              <s>{item.price2}</s>{item.price}
+              <s>{item.precio2}</s>{item.precio1}
             </div>
           </figcaption>
           <Link to={`/item/${item.id}`} className="link">

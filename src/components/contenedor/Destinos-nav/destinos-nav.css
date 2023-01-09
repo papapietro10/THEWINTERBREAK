@@ -46,13 +46,14 @@ figure.snip1224 .price {
 figure.snip1224 h4 {
   position: absolute;
   width: 50%;
-  top: 10px;
+  top:0px;
   right: 0;
   text-transform: uppercase;
   font-weight: 400;
   color: #ffffff;
   letter-spacing: 1px;
   z-index: 1;
+  background-color: rgba(0, 0, 0, 0.85);
 }
 figure.snip1224 p {
   font-size: 0.7em;
@@ -66,7 +67,17 @@ figure.snip1224 .rating {
   color: #ffffff;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 14%;
+  line-height: 44px;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 figure.snip1224 .price {
   color: #ffffff;
@@ -86,12 +97,19 @@ figure.snip1224 .add-to-cart {
   left: 0;
   font-weight: 600;
   width: 50%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.85);
   line-height: 44px;
   font-size: 0.75em;
   text-transform: uppercase;
   color: #ffffff;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 0px;
+  height: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 figure.snip1224:hover img,
 figure.snip1224.hover img {
   opacity: 0.6;
@@ -108,7 +126,8 @@ figure.snip1224.hover .add-to-cart {
   flex-direction: column;
   justify-content:center;
   align-items:flex-start;
-
+  position: relative;
+  bottom: 1.5em;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 440px) {

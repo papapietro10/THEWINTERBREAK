@@ -8,7 +8,7 @@
   background-color: #fff;
   display: flex;
   width: 100%;
-  height: 100%
+  height: 0%
 }
 
 .contenido-dos-genero img{
@@ -28,20 +28,21 @@ bottom: 13em;
   }
   .contenido-dos-genero p{
     width: 80%;
-
+font-size: 1.2em;
   }
   .texto-genero{
-    font-size: 1em;
-    width: 50%;
+    font-size: 1.3em;
+    width: 65%;
     text-align: justify;
    position: relative;
-   left: 10em;
+   left: 5em;
+   margin-top: 2em;
   }
 .contenido-dos-genero-comntenido{
   display: flex;
   flex-direction: column;
   position: relative;
-  bottom: 3em;
+  bottom: 4em;
 }
 .curva-balance{
 height: 10em;
@@ -58,6 +59,7 @@ width: 100%;
   text-align: center;
   justify-content: space-around;
   background-color: #fff;
+ 
 }
 
 .faq h4{
